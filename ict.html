@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman Kumar Panjwani - Portfolio</title>
+  <style>
+    /* Basic Reset & Smooth Scrolling */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #0a72d9;
+      color: #222222;
+    }
+
+    /* Header & Navigation */
+    header {
+      background-color: #0a72d9;
+      color: #ffffff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.3rem;
+    }
+
+    nav {
+      background-color: #0a72d9;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      padding: 0.75rem 1rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content Sections */
+    main {
+      max-width: 850px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      margin-bottom: 1.2rem;
+      border-radius: 6px;
+      border: 1px solid #dddddd;
+    }
+
+    h2 {
+      color: #1e293b;
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      margin-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    /* Skills Badges */
+    .skills-list {
+      list-style: none;
+      margin-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skills-list li {
+      background-color: #e2e8f0;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.6rem;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #1e293b;
+      color: #ffffff;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      width: fit-content;
+    }
+
+    button:hover {
+      background-color: #334155;
+    }
+
+    #form-status {
+      margin-top: 0.5rem;
+      color: #15803d;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #555555;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Adjustment for Small Screens */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Aman Kumar Panjwani</h1>
+    <p>Undergraduate Data Science Student</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- 1. Brief Introduction & Personal Profile -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am a first-year Data Science undergraduate at FAST-NUCES Karachi. 
+        I enjoy problem-solving, structured programming, and learning how software and databases work together.
+      </p>
+    </section>
+
+    <!-- 2. Academic Background & Qualifications -->
+    <section id="education">
+      <h2>Academic Background</h2>
+      <ul>
+        <li><strong>BS in Data Science</strong> — FAST-NUCES, Karachi (2026 – Present)</li>
+        <li><strong>A Levels (Mathematics, Physics, Computer Science)</strong> — The Lyceum (2026)</li>
+        <li><strong>O Levels</strong> — St. Paul's English High School (2024)</li>
+      </ul>
+    </section>
+
+    <!-- 3. Work Experience, Internships, Projects, or Relevant Activities -->
+    <section id="projects">
+      <h2>Projects & Activities</h2>
+      <ul>
+        <li><strong>Programming Fundamentals Lab Portfolio:</strong> Solved and organized C programming problems on GitHub covering loops, arrays, functions, and strings.</li>
+        <li><strong>Relational Database Queries:</strong> Practiced SQL data retrieval, joins, and filtering using Oracle SQL Developer.</li>
+        <li><strong>Personal Portfolio Website:</strong> Designed and built a responsive single-page portfolio using HTML, CSS, and JavaScript.</li>
+      </ul>
+    </section>
+
+    <!-- 4. Technical & Professional Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>C / C++</li>
+        <li>Python</li>
+        <li>HTML5 & CSS3</li>
+        <li>Basic JavaScript</li>
+        <li>SQL (Oracle & MySQL)</li>
+        <li>Microsoft Office (Word, Excel, Access, PowerPoint)</li>
+        <li>Problem Solving & Teamwork</li>
+      </ul>
+    </section>
+
+    <!-- 5. Contact Details & Contact Form -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: amankumarpanjwnai5000@gmail.com | GitHub: github.com/Insanity34567</p>
+
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Aman Kumar Panjwani. All rights reserved.</p>
+  </footer>
+
+  <!-- Minimal JavaScript -->
+  <script>
+    const form = document.getElementById("contact-form");
+    const statusText = document.getElementById("form-status");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevents the page from refreshing
+      const senderName = document.getElementById("name").value;
+      statusText.textContent = "Thank you, " + senderName + "! Your message has been received.";
+      form.reset(); // Clears the input fields
+    });
+  </script>
+
+</body>
+</html>
